@@ -1,0 +1,29 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background:url(../images/bg8.jpg) no-repeat;  /*bg6 bg8  bg12  bg14  bg15  bg16*/
+    background-size: cover;
+}
+.info{
+    display:none;
+}
+.container{
+    margin:34px auto;
+    padding:0px;
+}
+.register{
+    background: rgba(255,255,255,0.1);
+    padding:20px;
+}
+.register h3{
+    margin-bottom: 40px;
+    font-size: 3rem;
+    color:#1a7205;
+    letter-spacing: 1rem;
+}
+.register div{
+   margin-bottom: 10px;
+   height:40px
+}

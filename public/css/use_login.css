@@ -1,0 +1,126 @@
+body{
+    background:url(../images/bg8.jpg) no-repeat;  /*bg6 bg8  bg12  bg14  bg15  bg16*/
+    background-size: cover;
+}
+
+#login{
+    width:512px;
+    height:256px;
+    margin:0 auto;
+    margin-top:100px;
+    background: rgba(255,255,255,0.4);
+    z-index: 999;
+}
+/*左侧登录*/
+#login>.leftPage{
+    float: left;
+    width: 290px;
+    height: 256px;
+    padding-left: 30px;
+    box-sizing: border-box;
+}
+#login>.leftPage>h2{
+    height:50px;
+    line-height: 50px;
+    color:#1a7205;
+    font-size:30px;
+}
+#lForm>div{
+    width: 221px;
+    margin:10px;
+    margin-left:0px;
+}
+#lForm>div:nth-child(1)>input{
+    width: 227px;
+    height: 40px;
+}
+#lForm>div:nth-child(2)>input{
+     width: 227px;
+     height: 40px;
+ }
+#lForm>div:nth-child(3)>input{
+    width: 15px;
+    height:15px;
+}
+#lForm>div:nth-child(3)>span{
+    margin:15px;
+    margin-right:55px;
+}
+#lForm>div:nth-child(3)>a{
+    color:#4470d7;
+}
+#lBtn{
+    width:60px;
+    height:32px;
+    margin-top:8px;
+
+}
+/*右侧直接登录*/
+#login>.rightPage{
+    float: right;
+    width: 220px;
+    height: 256px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    background: #c0c1bf63;
+}
+#login>.rightPage>p{
+    color: #7b7b80;
+    font-size: 14px;
+    width: 130px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+#login>.rightPage>p:nth-child(1){
+    margin-left:22px;
+    font-size: 13px;
+}
+#login>.rightPage>p:last-child{
+    margin-left:24px;
+}
+#login>.rightPage>p:last-child>a{
+    font-size: 14px;
+    color:#4470d7;
+}
+#login>.rightPage>a{
+    float: left;
+    width: 135px;
+    height: 28px;
+    border-radius: 3px;
+    margin: 0 0 15px 0;
+    padding-left: 50px;
+    padding-top: 3px;
+    font:bold 13px "microsoft yahei",simsun,Tahoma,sans-serif;
+}
+#login>.rightPage>a:nth-child(2){
+    border:1px solid #37b5f9;
+    color: #37b5f9;
+    font-size: 16px;
+}
+#login>.rightPage>a:nth-child(3){
+    border: 1px solid #f26d7e;
+    color: #f26d7e;
+    font-size: 16px;
+}
+#login>.rightPage>a:nth-child(4){
+    border: 1px solid #00c800;
+    color: #00c800;
+    font-size: 16px;
+    margin-bottom:7px;
+}
+#login>.rightPage>a:nth-child(2):hover{
+    text-decoration: underline;
+    color:#0083ca;
+    border:2px solid #0083ca;
+}
+#login>.rightPage>a:nth-child(3):hover{
+    text-decoration: underline;
+    color:#f3475d;
+    border:2px solid #f3475d;
+}
+#login>.rightPage>a:nth-child(4):hover{
+    text-decoration: underline;
+    color:#088c08;
+    border:2px solid #088c08;
+}
